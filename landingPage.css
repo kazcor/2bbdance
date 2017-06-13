@@ -1,0 +1,228 @@
+html{
+    height: 100%;
+}
+#content {
+    text-align: center;
+    padding-top: 15%;
+    text-shadow: 0px 4px 3px rgba(0,0,0,0.4),
+                 0px 8px 13px rgba(0,0,0,0.1),
+                 0px 18px 23px rgba(0,0,0,0.1);
+}
+
+body {
+    font-family: Lato;
+}
+
+h1,h3 {
+    color: white;
+}
+h1{
+    font-size: 5em;
+    font-weight: 700;
+}
+hr{
+    width: 400px;
+    border-top: 1px solid #f8f8f8;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+}
+
+
+body nav.navbar-default {
+    background-color: rgba(255,255,255,0.8);
+    border-style: none;
+}
+
+
+#myNav a,#myNav navbar-brand {
+    color: black;
+}
+#myNav a:hover,#myNav navbar-brand:hover {
+    background-color: rgba(0,0,0,0.3);
+    color: black;
+}
+
+.mainBackground {
+    position: fixed;
+    background-image: url("http://source.unsplash.com/NSVJAAXOYHs");
+    background-size: cover;
+    height: 100vh;
+    width: 100%;
+    z-index: -2;
+}
+.backgroundImage1{
+    background-image: url("http://source.unsplash.com/--LyFIjXoFY");
+}
+.backgroundImage2{
+    background-image: url("http://source.unsplash.com/wU5JYPb663Y");
+}
+article {
+    padding-top: 70px;
+    width: 100%;
+    min-height: 100vh;
+}
+
+#instruktor {
+    background-color: white;
+}
+
+#instruktor h1,#instruktor h2 {
+    text-align: center;
+    color: black;
+    z-index: 5;
+}
+#instruktor hr,#osiagniecia hr{
+    border: 1px solid orange;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: orange;
+    text-align: center;
+}
+#instruktor hr:after,#osiagniecia hr:after{
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+#instruktor p{
+    font-size: 1.2em;
+}
+
+#bartosz{
+    text-align:center;
+    height: 65vh;
+    display: block;
+    margin:auto;
+    border-radius: 8px 8px 8px;
+    box-shadow: 2px 2px 2px black;
+}
+
+#oferta h2,#galeria h2{
+    width: 100%;
+    color: black;
+    text-align: center;
+    background: rgba(255,255,255,0.8);
+    padding: 10px;
+}
+#oferta h3{
+    color: black;
+    text-align: center;
+}
+#oferta col-md-4{
+    background: white;
+}
+
+#oferta .off {
+    padding: 20px;
+    text-align: center;
+}
+#oferta .off div{
+    background-color: white;
+    padding: 5px 10px 5px 10px;
+    border-style: double;
+    height: 60vh;
+    box-shadow: 2px 2px 2px black;
+}
+#oferta hr{
+    width: 60%;
+    border: 1px solid orange;
+    padding: 0;
+    border: none;
+    border-top: medium double #333;
+    color: orange;
+    text-align: center;
+}
+#oferta hr:after{
+    content: "§";
+    display: inline-block;
+    position: relative;
+    top: -0.7em;
+    font-size: 1.5em;
+    padding: 0 0.25em;
+    background: white;
+}
+
+.achievement {
+    transition: 1s;
+	transform-style: preserve-3d;
+    background-color: white;
+    margin: 10px;
+    text-align: center;
+    min-height: 200px;
+    padding: 5px 10px 5px 10px;
+    border: 2px double orange;
+    box-shadow: 2px 2px 2px lightgray;
+}
+.achievement i{
+    font-size: 2.5em;
+    color: orange;
+}
+#osiagniecia{
+    background-color: white;
+}
+#osiagniecia h2{
+    text-align: center;
+    color: black;
+}
+.instruktorText {
+    height: 65vh;
+    border-style:ridge;
+    border-color: white black black white;
+    padding: 10px 10px 10px 20px;
+}
+.achievement p, .data{
+    text-align: center;
+    position: absolute;
+    backface-visibility: hidden;
+}
+.achievement:hover{
+    transform: rotateY(-180deg);
+}
+
+.achievement p{
+    width:95%;
+    
+}
+.data{
+    transform: rotateY(-180deg);
+    text-shadow: 1px 1px 4px black;
+    color: lightgray;
+     font-size: 3em;
+    width: 95%;
+}
+#galeria .container{
+    background-color:rgba(255,255,255,0.5);
+}
+.slideLeft,.slideRight,.myImages {
+    background-color:rgba(255,255,255,0.5);
+    height: 75vh;
+    
+}
+.slideLeft,.slideRight{
+    text-align:center;
+    padding-top: 30vh;
+    transition: 0.2s;
+    
+}
+.slideLeft i,.slideRight i{
+    font-size: 5em;
+
+}
+.myImages{
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: .4s;
+}
+.slideLeft:hover,.slideRight:hover{
+    background-color: rgba(0,0,0,0.1);
+    color: white;
+}
+.slideLeft:active,.slideRight:active{
+    background-color: rgba(0,0,0,0.1);
+    font-size: .95em;
+    text-shadow: 1px 1px 3px black;;
+}
