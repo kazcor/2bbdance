@@ -1,5 +1,5 @@
 html{
-    width: 100vw;
+    padding:0;
 }
 #content {
     text-align: center;
@@ -12,6 +12,7 @@ html{
 body {
     font-family: Lato;
     width: 100vw;
+    padding: 0;
 }
 
 h1,h3 {
@@ -22,7 +23,7 @@ h1{
     font-weight: 700;
 }
 hr{
-    width: 400px;
+    width: 60%;
     border-top: 1px solid #f8f8f8;
     border-bottom: 1px solid rgba(0,0,0,0.2);
 }
@@ -33,7 +34,9 @@ body nav.navbar-default {
     border-style: none;
 }
 
-
+#myNav{
+    width: 100vw;
+}
 #myNav a,#myNav navbar-brand {
     color: black;
 }
@@ -47,7 +50,7 @@ body nav.navbar-default {
     background-image: url("http://source.unsplash.com/NSVJAAXOYHs");
     background-size: cover;
     height: 100vh;
-    width: 100%;
+    width: 100vw;
     z-index: -2;
 }
 .backgroundImage1{
@@ -78,6 +81,7 @@ article {
     border-top: medium double #333;
     color: orange;
     text-align: center;
+    width: 60%;
 }
 #instruktor hr:after,#osiagniecia hr:after{
     content: "§";
@@ -209,7 +213,7 @@ article {
     
 }
 .slideLeft i,.slideRight i{
-    font-size: 5em;
+    font-size: 3em;
 
 }
 .myImages{
