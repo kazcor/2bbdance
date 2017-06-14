@@ -200,16 +200,17 @@ article {
 }
 #galeria .container{
     background-color:rgba(255,255,255,0.5);
+    padding-left:0;
+    padding-right:0;
 }
 .slideLeft,.slideRight,.myImages {
-    background-color:rgba(255,255,255,0.5);
-    height: 75vh;
-    
+    height: 75vh; 
 }
 .slideLeft,.slideRight{
     text-align:center;
-    padding-top: 30vh;
+    padding-top: 32vh;
     transition: 0.2s;
+    width: 10vw;
     
 }
 .slideLeft i,.slideRight i{
