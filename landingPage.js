@@ -1,11 +1,11 @@
 $(document).ready(function(){
 $(".images").css("background-image","url(\"/f2.jpg\")")
     $(window).scroll(function(){
-        if($(this).scrollTop()>$(window).height()){
+        if($(this).scrollTop()>=$(window).height()){
            $(".mainBackground").addClass("backgroundImage1");
         }
         else{$(".mainBackground").removeClass("backgroundImage1");}
-        if($(this).scrollTop()>$(window).height()*3){
+        if($(this).scrollTop()>=$(window).height()*3){
            $(".mainBackground").addClass("backgroundImage2");
         }
         else{$(".mainBackground").removeClass("backgroundImage2");}

@@ -51,6 +51,7 @@ body nav.navbar-default {
     background-size: cover;
     height: 100vh;
     width: 100vw;
+    transition: -2s;
     z-index: -2;
 }
 .backgroundImage1{
@@ -69,12 +70,12 @@ article {
     background-color: white;
 }
 
-#instruktor h1,#instruktor h2 {
+#instruktor h1,#instruktor h2,#kontakt h2 {
     text-align: center;
     color: black;
     z-index: 5;
 }
-#instruktor hr,#osiagniecia hr{
+#instruktor hr,#osiagniecia hr,#kontakt hr{
     border: 1px solid orange;
     padding: 0;
     border: none;
@@ -83,7 +84,7 @@ article {
     text-align: center;
     width: 60%;
 }
-#instruktor hr:after,#osiagniecia hr:after{
+#instruktor hr:after,#osiagniecia hr:after,#kontakt hr:after{
     content: "§";
     display: inline-block;
     position: relative;
@@ -202,6 +203,7 @@ article {
     background-color:rgba(255,255,255,0.5);
     padding-left:0;
     padding-right:0;
+    max-width: 100vw;
 }
 .slideLeft,.slideRight,.myImages {
     height: 75vh; 
@@ -220,8 +222,9 @@ article {
 .myImages{
     background-size:contain;
     background-repeat: no-repeat;
-    background-position: center;
+    background-position: top;
     transition: .4s;
+    max-width: 100vw;
 }
 .slideLeft:hover,.slideRight:hover{
     background-color: rgba(0,0,0,0.1);
@@ -231,4 +234,17 @@ article {
     background-color: rgba(0,0,0,0.1);
     font-size: .95em;
     text-shadow: 1px 1px 3px black;;
+}
+#kontakt {
+    background-color: white;
+}
+
+#send {
+    display: block;
+    margin: auto;
+}
+
+#kontakt p {
+    text-align: center;
+    font-size: 1.3em;
 }
