@@ -1,126 +1,210 @@
 <!DOCTYPE HTML>
-   <html>
-    <head> <meta name="viewport" content="width=device-width, initial-scale=1">
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>BB Dance School</title>
-<!--JQUERY-->
-<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
-<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-<script type="text/javascript" src="landingPage.js"></script>
-<!--BOOTSTRAP-->
-<link rel="stylesheet" href="bootstrap.css">
-<script type="text/javascript"src="bootstrap.js"></script>
-   <link rel="stylesheet" href="landingPage.css">
-   <!--FONT AWESOME-->
-<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-    </head>
-    <body><div class="mainBackground"></div><article>
-      <nav id="myNav" class="navbar navbar-default navbar-fixed-top">
-      <div class="container">
-  <div class="container-fluid">
-    <!-- Brand and toggle get grouped for better mobile display -->
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+    <!--JQUERY-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <script type="text/javascript" src="landingPage.js"></script>
+    <!--BOOTSTRAP-->
+    <link rel="stylesheet" href="bootstrap.css">
+    <script type="text/javascript" src="bootstrap.js"></script>
+    <link rel="stylesheet" href="landingPage.css">
+    <!--FONT AWESOME-->
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="mainBackground"></div>
+    <article id="landingPage">
+        <nav id="myNav" class="navbar navbar-default navbar-fixed-top">
+            <div class="container">
+                <div class="container-fluid">
+                    <!-- Brand and toggle get grouped for better mobile display -->
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
         <span class="sr-only">Toggle navigation</span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a id="logo" class="navbar-brand" href="#">BB-DC</a>
-    </div>
+                        <a id="logo" class="navbar-brand" href="#landingPage">BB-DC</a>
+                    </div>
 
-    <!-- Collect the nav links, forms, and other content for toggling -->
-    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-      <ul class="nav navbar-nav">
-        <li><a href="#">Instruktor</a></li>
-        <li><a href="#">Oferta</a></li>
-          <li><a href="#">Osiągnięcia</a></li>
-          <li><a href="#">Galeria</a></li>
-           
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Kontakt</a></li>
-        <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Mapa</a></li>
-      </ul>
-    </div><!-- /.navbar-collapse -->
-  </div><!-- /.container-fluid -->
-  </div>
-</nav>
-       <div class="container">
-        <div class="row">
-           
-           
-            <div class="col-md-12">
-               <div id="content">
-                <h1>BB Dance School</h1>
-                <h3>Szkoła tańca z klasą</h3>
-                <hr>
-                <button class="btn btn-default btn-lg">Poznaj nas!</button>
-            </div>
-            </div>
-        </div>
-        </div></article>
-        <article id="instruktor">
-            <h2>Instruktor</h2>
-            <hr>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-6 col-sm-6 instruktorText"><p>Bacon ipsum dolor amet alcatra porchetta pork swine. Pork loin flank landjaeger sirloin rump picanha. Salami leberkas ball tip tri-tip. Shankle porchetta flank kevin tenderloin, picanha sausage corned beef cupim jerky drumstick tongue. Pork belly capicola beef fatback t-bone. Ground round fatback shoulder rump tail prosciutto burgdoggen beef shankle cow pork andouille venison hamburger. Short ribs hamburger flank capicola cupim.</p></div>
-                    <div class="col-md-6 col-sm-6 " style="text-align: center; font-style: italic;"><img id="bartosz" src="bartosz.jpg" alt=""><br><p>"Lorem ipsum dolores"</p></div>
+                    <!-- Collect the nav links, forms, and other content for toggling -->
+                    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <ul class="nav navbar-nav">
+                            <li><a href="#instruktor">Instruktor</a></li>
+                            <li><a href="#oferta">Oferta</a></li>
+                            <li><a href="#osiagniecia">Osiągnięcia</a></li>
+                            <li><a href="#galeria">Galeria</a></li>
+
+                        </ul>
+                        <ul class="nav navbar-nav navbar-right">
+                            <li><a href="#"><span class="glyphicon glyphicon-envelope"></span> Kontakt</a></li>
+                            <li><a href="#"><i class="fa fa-map-marker" aria-hidden="true"></i> Mapa</a></li>
+                        </ul>
+                    </div>
+                    <!-- /.navbar-collapse -->
                 </div>
+                <!-- /.container-fluid -->
             </div>
-        </article>
-        <article id="oferta">
-            <h2>Oferta</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-4 col-sm-6 off"><div><h3>Offer</h3><hr><p>Cow ham meatball, beef ribs kielbasa pork chop biltong. Sausage pork loin filet mignon tongue venison bresaola ribeye ham hock short ribs short loin. Filet mignon picanha jowl ham hock beef ribs sirloin shoulder. Pastrami salami ground round ribeye spare ribs, shoulder alcatra turkey ham leberkas beef meatloaf tenderloin brisket doner. Ham capicola cupim t-bone ball tip kielbasa.</p></div></div>
-                    <div class="col-md-4 col-sm-6 off"><div><h3>Offer</h3><hr><p>Cow ham meatball, beef ribs kielbasa pork chop biltong. Sausage pork loin filet mignon tongue venison bresaola ribeye ham hock short ribs short loin. Filet mignon picanha jowl ham hock beef ribs sirloin shoulder. Pastrami salami ground round ribeye spare ribs, shoulder alcatra turkey ham leberkas beef meatloaf tenderloin brisket doner. Ham capicola cupim t-bone ball tip kielbasa.</p></div></div>
-                    <div class="col-md-4 col-sm-12 off"><div><h3>Offer</h3><hr><p>Cow ham meatball, beef ribs kielbasa pork chop biltong. Sausage pork loin filet mignon tongue venison bresaola ribeye ham hock short ribs short loin. Filet mignon picanha jowl ham hock beef ribs sirloin shoulder. Pastrami salami ground round ribeye spare ribs, shoulder alcatra turkey ham leberkas beef meatloaf tenderloin brisket doner. Ham capicola cupim t-bone ball tip kielbasa.</p></div></div>
-                </div>
-            </div>
-        </article>
-        <article id="osiagniecia">
-            <div class="container">
-               <h2>Osiągnięcia</h2><hr>
-                <div class="row">                    
-            <div class="col-md-4 col-sm-6 flipper"><div class="achievement"><p><i class="fa fa-trophy" aria-hidden="true"></i><br><b>Spicy jalapeno bacon</b><br>  ipsum dolor amet boudin corned beef pancetta pork belly shank beef burgdoggen frankfurter rump. Alcatra spare ribs tongue, venison pancetta picanha chuck meatball filet mignon prosciutto shoulder ham hock chicken pig corned beef</p><div class="data">Głogów <br>20.08.2016</div></div></div>
-            
-                    <div class="col-md-4 col-sm-6 flipper"><div class="achievement"><p><i class="fa fa-trophy" aria-hidden="true"></i><br><b>Spicy jalapeno bacon</b><br> dolor amet boudin corned beef pancetta pork belly shank beef burgdoggen frankfurter rump. Alcatra spare ribs tongue, venison pancetta picanha chuck meatball filet mignon prosciutto shoulder ham hock chicken pig corned beef. </p><div class="data">Głogów <br>20.08.2016</div></div></div>
-                    <div class="col-md-4 col-sm-6 flipper"><div class="achievement"><p><i class="fa fa-trophy" aria-hidden="true"></i><br><b>Spicy jalapeno bacon</b><br> dolor amet boudin corned beef pancetta pork belly shank beef burgdoggen frankfurter rump. Alcatra spare ribs tongue, venison pancetta picanha chuck meatball filet mignon prosciutto shoulder ham hock chicken pig corned beef. </p><div class="data">Głogów <br>20.08.2016</div></div></div>
-                    <div class="col-md-4 col-sm-6 flipper"><div class="achievement"><p><i class="fa fa-trophy" aria-hidden="true"></i><br><b>Spicy jalapeno bacon</b><br> dolor amet boudin corned beef pancetta pork belly shank beef burgdoggen frankfurter rump. Alcatra spare ribs tongue, venison pancetta picanha chuck meatball filet mignon prosciutto shoulder ham hock chicken pig corned beef. </p><div class="data">Głogów <br>20.08.2016</div></div></div>
-                    <div class="col-md-4 col-sm-6 flipper"><div class="achievement"><p><i class="fa fa-trophy" aria-hidden="true"></i><br><b>Spicy jalapeno bacon</b><br> dolor amet boudin corned beef pancetta pork belly shank beef burgdoggen frankfurter rump. Alcatra spare ribs tongue, venison pancetta picanha chuck meatball filet mignon prosciutto shoulder ham hock chicken pig corned beef. </p><div class="data">Głogów <br>20.08.2016</div></div></div>
-                    <div class="col-md-4 col-sm-6 flipper"><div class="achievement"><p><i class="fa fa-trophy" aria-hidden="true"></i><br><b>Spicy jalapeno bacon</b><br> dolor amet boudin corned beef pancetta pork belly shank beef burgdoggen frankfurter rump. Alcatra spare ribs tongue, venison pancetta picanha chuck meatball filet mignon prosciutto shoulder ham hock chicken pig corned beef. </p><div class="data">Głogów <br>20.08.2016</div></div></div>
-                </div>
-            </div>
-        </article>
-        <article id="galeria"><h2>Galeria</h2>
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-12 col-xs-12 myImages"><div class="slideLeft" style="float: left"><i class="fa fa-angle-left" aria-hidden="true"></i></div><div class="slideRight" style="float: right"><i class="fa fa-angle-right" aria-hidden="true"></i></div></div>
-                    
-                </div>
-            </div>
-        </article>
-        <article id="kontakt">
-        <h2>Kontakt</h2><hr>
+        </nav>
         <div class="container">
-           <p>Prosimy o kontakt mailowy, lub za pośrednictwem numeru telefonu</p>
-            <form>
-  <div class="form-group">
-    <label for="email">Email address</label>
-    <input type="email" class="form-control" id="email" placeholder="Twój E-mail">
-  </div>
-  <div class="form-group">
-    <label for="title">Password</label>
-    <input type="title" class="form-control" id="title" placeholder="Tytuł">
-  </div>
-    <div class="form-group">
-        <label for="tekst">Wiadomość:</label><br>
-        <textarea name="tekst" id="tekst" class="form-control" cols="30" rows="10"></textarea>
-    </div>
-  <button type="submit" class="btn btn-default" id="send">Wyślij</button>
-</form>
+            <div class="row">
+
+
+                <div class="col-md-12">
+                    <div id="content">
+                        <h1>BB Dance School</h1>
+                        <h3>Szkoła tańca z klasą</h3>
+                        <hr>
+                        <a href="#instruktor"><button class="btn btn-default btn-lg">Poznaj nas!</button></a>
+                    </div>
+                </div>
+            </div>
         </div>
-        </article>
-    </body>
+    </article>
+    <article id="instruktor">
+        <h2>Instruktor</h2>
+        <hr>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 col-sm-6 instruktorText">
+                    <p>Bacon ipsum dolor amet alcatra porchetta pork swine. Pork loin flank landjaeger sirloin rump picanha. Salami leberkas ball tip tri-tip. Shankle porchetta flank kevin tenderloin, picanha sausage corned beef cupim jerky drumstick tongue. Pork belly capicola beef fatback t-bone. Ground round fatback shoulder rump tail prosciutto burgdoggen beef shankle cow pork andouille venison hamburger. Short ribs hamburger flank capicola cupim.</p>
+                </div>
+                <div class="col-md-6 col-sm-6 " style="text-align: center; font-style: italic;"><img id="bartosz" src="bartosz.jpg" alt=""><br>
+                    <p>"Lorem ipsum dolores"</p>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="oferta">
+        <h2>Oferta</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-4 col-sm-6 off">
+                    <div>
+                        <h3>Offer</h3>
+                        <hr>
+                        <p>Cow ham meatball, beef ribs kielbasa pork chop biltong. Sausage pork loin filet mignon tongue venison bresaola ribeye ham hock short ribs short loin. Filet mignon picanha jowl ham hock beef ribs sirloin shoulder. Pastrami salami ground round ribeye spare ribs, shoulder alcatra turkey ham leberkas beef meatloaf tenderloin brisket doner. Ham capicola cupim t-bone ball tip kielbasa.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 off">
+                    <div>
+                        <h3>Offer</h3>
+                        <hr>
+                        <p>Cow ham meatball, beef ribs kielbasa pork chop biltong. Sausage pork loin filet mignon tongue venison bresaola ribeye ham hock short ribs short loin. Filet mignon picanha jowl ham hock beef ribs sirloin shoulder. Pastrami salami ground round ribeye spare ribs, shoulder alcatra turkey ham leberkas beef meatloaf tenderloin brisket doner. Ham capicola cupim t-bone ball tip kielbasa.</p>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-12 off">
+                    <div>
+                        <h3>Offer</h3>
+                        <hr>
+                        <p>Cow ham meatball, beef ribs kielbasa pork chop biltong. Sausage pork loin filet mignon tongue venison bresaola ribeye ham hock short ribs short loin. Filet mignon picanha jowl ham hock beef ribs sirloin shoulder. Pastrami salami ground round ribeye spare ribs, shoulder alcatra turkey ham leberkas beef meatloaf tenderloin brisket doner. Ham capicola cupim t-bone ball tip kielbasa.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="osiagniecia">
+        <div class="container">
+            <h2>Osiągnięcia</h2>
+            <hr>
+            <div class="row">
+                <div class="col-md-4 col-sm-6 flipper">
+                    <div class="achievement">
+                        <p><i class="fa fa-trophy" aria-hidden="true"></i><br><b>Spicy jalapeno bacon</b><br> ipsum dolor amet boudin corned beef pancetta pork belly shank beef burgdoggen frankfurter rump. Alcatra spare ribs tongue, venison pancetta picanha chuck meatball filet mignon prosciutto shoulder ham hock chicken pig corned beef</p>
+                        <div class="data">Głogów <br>20.08.2016</div>
+                    </div>
+                </div>
+
+                <div class="col-md-4 col-sm-6 flipper">
+                    <div class="achievement">
+                        <p><i class="fa fa-trophy" aria-hidden="true"></i><br><b>Spicy jalapeno bacon</b><br> dolor amet boudin corned beef pancetta pork belly shank beef burgdoggen frankfurter rump. Alcatra spare ribs tongue, venison pancetta picanha chuck meatball filet mignon prosciutto shoulder ham hock chicken pig corned beef. </p>
+                        <div class="data">Głogów <br>20.08.2016</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 flipper">
+                    <div class="achievement">
+                        <p><i class="fa fa-trophy" aria-hidden="true"></i><br><b>Spicy jalapeno bacon</b><br> dolor amet boudin corned beef pancetta pork belly shank beef burgdoggen frankfurter rump. Alcatra spare ribs tongue, venison pancetta picanha chuck meatball filet mignon prosciutto shoulder ham hock chicken pig corned beef. </p>
+                        <div class="data">Głogów <br>20.08.2016</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 flipper">
+                    <div class="achievement">
+                        <p><i class="fa fa-trophy" aria-hidden="true"></i><br><b>Spicy jalapeno bacon</b><br> dolor amet boudin corned beef pancetta pork belly shank beef burgdoggen frankfurter rump. Alcatra spare ribs tongue, venison pancetta picanha chuck meatball filet mignon prosciutto shoulder ham hock chicken pig corned beef. </p>
+                        <div class="data">Głogów <br>20.08.2016</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 flipper">
+                    <div class="achievement">
+                        <p><i class="fa fa-trophy" aria-hidden="true"></i><br><b>Spicy jalapeno bacon</b><br> dolor amet boudin corned beef pancetta pork belly shank beef burgdoggen frankfurter rump. Alcatra spare ribs tongue, venison pancetta picanha chuck meatball filet mignon prosciutto shoulder ham hock chicken pig corned beef. </p>
+                        <div class="data">Głogów <br>20.08.2016</div>
+                    </div>
+                </div>
+                <div class="col-md-4 col-sm-6 flipper">
+                    <div class="achievement">
+                        <p><i class="fa fa-trophy" aria-hidden="true"></i><br><b>Spicy jalapeno bacon</b><br> dolor amet boudin corned beef pancetta pork belly shank beef burgdoggen frankfurter rump. Alcatra spare ribs tongue, venison pancetta picanha chuck meatball filet mignon prosciutto shoulder ham hock chicken pig corned beef. </p>
+                        <div class="data">Głogów <br>20.08.2016</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+    <article id="galeria">
+        <h2>Galeria</h2>
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 col-xs-12 myImages">
+                    <div class="slideLeft" style="float: left"><i class="fa fa-angle-left" aria-hidden="true"></i></div>
+                    <div class="slideRight" style="float: right"><i class="fa fa-angle-right" aria-hidden="true"></i></div>
+                </div>
+
+            </div>
+        </div>
+    </article>
+    <article id="kontakt">
+        <h2>Kontakt</h2>
+        <hr>
+        <div class="container">
+            <p>Prosimy o kontakt mailowy, lub za pośrednictwem numeru telefonu</p>
+            <div class="row">
+                <div class="col-md-6">
+                    <form>
+                        <div class="form-group">
+                            <label for="email">Adres e-mail</label>
+                            <input type="email" class="form-control" id="email" placeholder="Twój E-mail">
+                        </div>
+                        <div class="form-group">
+                            <label for="title">Tytuł</label>
+                            <input type="title" class="form-control" id="title" placeholder="Tytuł">
+                        </div>
+                        <div class="form-group">
+                            <label for="tekst">Wiadomość:</label><br>
+                            <textarea name="tekst" id="tekst" class="form-control" cols="30" rows="10"></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-default" id="send">Wyślij</button>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <div class="telMail">
+                        <p><i class="fa fa-id-card-o fa-2x" aria-hidden="true"></i></p>
+                        <p>Bartosz Burka BB Dance School</p>
+                        <p style="text-align: left">Tel: 609 709 809</p>
+                        <p style="text-align: left">E-mail: email@gmail.com</p>
+                    </div>
+                    <div class="telMail">
+                        <p>Obserwuj nas:</p>
+                        <p><a href=""><i class="fa fa-facebook-official fa-2x" aria-hidden="true"></i></a>
+                            <a href=""><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </article>
+</body>
+
 </html>
